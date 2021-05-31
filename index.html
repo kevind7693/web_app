@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Screen-Time tracker</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+      <div id ="box">
+          <div id="title_box">
+            <h1>Had Enough Screen Time?</h1>
+          </div>
+          <div id="content_box">
+            <input placeholder ="Name" type="name" id="name"/>
+            <input placeholder ="Screen-Time (Hours)" type="screentime" id="screen_time"/>
+            <input placeholder ="Age" type="age" id="age"/>
+          </div>
+          
+          <div id="button">
+            <button id="save" onclick="save()"> SUBMIT </button>
+          </div>
+      </div>
+  
+  </body>
+  
+  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+  <script src="index.js"></script>
+  
+</html>
